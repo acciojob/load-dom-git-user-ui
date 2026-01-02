@@ -1,7 +1,4 @@
 //your JS code here. If required.
-document.addEventListener("DOMContentLoaded", function () {
-	
-	
-
-	document.body.appendChild("DOM load success")
-})
+ document.addEventListener("DOMContentLoaded", function () {
+        document.body.innerText = "DOM load success";
+      });
