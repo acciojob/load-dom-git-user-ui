@@ -1,3 +1,5 @@
- document.addEventListener("DOMContentLoaded", function () {
-        document.body.innerText = "DOM load success";
-      });
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.appendChild(
+    document.createTextNode("DOM load success")
+  );
+});
